@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter', sans-serif;
+    --accent-font: 'PressStart2P', 'PressStart2P-Regular', monospace;
+    /* Основные цвета */
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #000000;
+    --border-color: #000000;
+    --stroke-color: #ffffff;
+    --heart-color: #ff0000;
+    /* Цвета для кнопок */
+    --mix-blend-color: #ffffff;
+    --button-bg-color: #000000;
+    /* Градиенты */
+    --linear-gradient-first: #d3d3d3;
+    --linear-gradient-second: transparent;
+    /* Веса шрифтов */
+    --header-weight: 700;
+    --text-weight: 400;
+}
