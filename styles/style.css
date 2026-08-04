@@ -305,6 +305,10 @@
     box-sizing: border-box; /*чтобы ширина были и падинг и бордер*/
 }
 
+.dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
 .dialog__flex {
     display: flex;
     align-items: center;

@@ -59,7 +59,7 @@
 
 .like-icon.is-liked .core {
     fill: var(--heart-color);
-    transition: fill .3s;
+    transition: fill .3s 3ms;
 }
 
 /* Контур */
